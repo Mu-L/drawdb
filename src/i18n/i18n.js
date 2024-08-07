@@ -12,9 +12,21 @@ import { fa, persian } from "./locales/fa";
 import { hi, hindi } from "./locales/hi";
 import { uk, ukrainian } from "./locales/uk";
 import { ru, russian } from "./locales/ru";
+import { tr, turkish } from "./locales/tr";
 import { mr, marathi } from "./locales/mr";
 import { fr, french } from "./locales/fr";
+import { he, hebrew } from "./locales/he";
 import { pa, punjabi } from "./locales/pa";
+import { hy, armenian } from "./locales/hy";
+import { ar, arabic } from "./locales/ar";
+import { zh_tw, traditionalChinese } from "./locales/zh-tw";
+import { hu, hungarian } from "./locales/hu";
+import { id, indonesian } from "./locales/id";
+import { te, telugu} from "./locales/te";
+import { tm ,tamil } from "./locales/tm";
+import { gu, gujarati } from "./locales/gu";
+import { it, italian } from "./locales/it";
+import { ko, korean } from "./locales/ko";
 
 export const languages = [
   english,
@@ -29,8 +41,20 @@ export const languages = [
   marathi,
   ukrainian,
   russian,
+  turkish,
   french,
   punjabi,
+  armenian,
+  arabic,
+  traditionalChinese,
+  hebrew,
+  hungarian,
+  indonesian,
+  telugu,
+  tamil,
+  gujarati,
+  italian,
+  korean,
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 i18n
@@ -49,14 +73,26 @@ i18n
       da,
       de,
       vi,
-      pt,
+      "pt-BR": pt,
       fa,
       hi,
       mr,
       uk,
       ru,
+      tr,
       fr,
       pa,
+      hy,
+      ar,
+      "zh-TW": zh_tw,
+      he,
+      hu,
+      id,
+      te,
+      tm,
+      gu,
+      it,
+      ko,
     },
   });
 
